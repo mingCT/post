@@ -1,0 +1,19 @@
+<%= render 'shared/content_lead', header: 'All Posts' %>
+
+<ul>
+<% @posts.each do |post| %>
+ <div class='well'>
+ 	<h5><%= post.title %></h5>
+ 	<ul><%= post.body %></ul>
+
+
+
+
+
+
+ 	
+ </div>
+
+<% end %>
+</ul>
+	
